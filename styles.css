@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;      /*ensures that the specified width includes padding and border.*/
+    overflow: hidden;           /*hides any content that overflows the container, preventing it from affecting the layout of surrounding elements and eliminating the need for scrollbars.*/
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;  /*top and bottom is 30 and left right 0*/
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+}
+
+nav{
+    flex:1; /*its a shorthand property that sets three individual Flex properties: flex-grow, flex-shrink, and flex-basis. In this case, it's shorthand for flex: 1 1 0;. */
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;       /* removes default markers*/
+    display: inline-block;  /*makes the list horizontally aligned*/
+    margin-right: 30px;     /*Provides margin between list elements*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;   /*Positions the flex items with maximum space between them along the main axis. */
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1{
+    flex-basis:40%;  /*Sets the initial size of the .col-1 to be 40% of the container's width*/
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2{
+    font-size:  54px;
+}
+
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.col-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
