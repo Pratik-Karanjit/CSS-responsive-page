@@ -138,7 +138,7 @@ button:hover{
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(#ff54a2, #ff575a);
+    background: linear-gradient(#ff54a2, #ff575a);          /*Give that gradient look*/
     border-radius: 20px 0 0 20px;
     height: 100%;
     width: 80%;
