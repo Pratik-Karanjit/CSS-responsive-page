@@ -142,7 +142,7 @@ button:hover{
     border-radius: 20px 0 0 20px;
     height: 100%;
     width: 80%;
-    z-index: -1;
+    z-index: -1;                    /*3d look*/
     transform: translateX(150px);
 }
 
