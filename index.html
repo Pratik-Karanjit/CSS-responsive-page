@@ -11,14 +11,14 @@
         <div class="navbar">
             <img src="images/logo.png" alt="logo" class="logo">
             <nav>
-                <ul>
+                <ul id="menuList">
                     <li><a href="">About</a></li>
                     <li><a href="">Career</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">Others</a></li>
                 </ul>
             </nav>
-            <img src="images/image2.png" alt="logo" class="menu-icon">
+            <img src="images/menu.png" alt="logo" class="menu-icon" onclick="togglemenu()">
         </div>
 
         <div class="row">
@@ -39,6 +39,25 @@
             </div>
         </div>
 
+        <div class="social-links">
+            <img src="images/fb.png" alt="facebook">
+            <img src="images/ig.png" alt="instagram">
+            <img src="images/tw.png" alt="twitter">
+        </div>
+
     </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu() {
+            if(menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px"
+            }
+            else{
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
 </body>
 </html>
