@@ -223,9 +223,31 @@ button:hover{
 
 .container2{
     width: 100%;
+    background-color: #faf6f6;
     min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;   
     overflow: hidden;      
+}
+
+
+.row2{
+    display: flex;
+    justify-content: space-around;   /*Positions the flex items with maximum space between them along the main axis. */
+    align-items: center;
+    margin: 100px 0;
+}
+
+.colu-1, .colu-2, .colu-3{
+flex-basis:33%; 
+position: relative;
+margin-left: 50px;
+background-color: #c52929;
+height: 10rem;
+}
+
+.services{
+    font: bold 25px arial;
+    margin: 100px 0;
 }
