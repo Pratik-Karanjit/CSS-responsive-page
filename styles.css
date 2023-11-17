@@ -239,7 +239,7 @@ button:hover{
     margin: 100px 0;
 }
 
-.colu-1, .colu-2, .colu-3{
+.colu-1, .colu-2, .colu-3{      /*Combining all together*/
 flex-basis:33%; 
 position: relative;
 margin-left: 50px;
