@@ -246,7 +246,7 @@ nav ul li a:hover{
     border: 1px solid #ededed;
     border-radius: 7px;
     height: 460px;
-}
+}     
 
 .services{
     font: bold 25px arial;        /*Services heading*/
@@ -325,4 +325,52 @@ form button {
   font-size: 22px;
   margin: 10px;
   cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .row2{
+        flex-direction: column-reverse; 
+        margin: 70px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center; 
+    }
+
+    .footer div {
+        margin-top: 20px; 
+    }
+
+    form input {
+        width: 100%; 
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.row2 {
+flex-direction: column-reverse;
+margin: 70px 0;
+}
+
+.colu-1,.colu-2,.colu-3 {
+width: 100%;
+margin-bottom: 20px;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+.row2 {
+margin: 80px 0;
+}
+.colu-1,.colu-2,.colu-3 {
+width: 48%; 
+margin-bottom: 20px;
+}
 }
