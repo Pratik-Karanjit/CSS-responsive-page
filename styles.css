@@ -86,7 +86,7 @@ nav ul li a:hover{
     font-size: 20px;
 }
 
-button{
+.hero-button{
     width: 140px;
     border: 0;
     padding: 12px 10px;
@@ -98,16 +98,16 @@ button{
     transition: width 0.3s;
 }
 
-button img{
+.hero-button img{
     width: 30px;
     display: none;     /*Only display it when hovered */
 }
 
-button:hover img{     /*To display the arrow image */
+.hero-button:hover img{     /*To display the arrow image */
     display: block;
 }
 
-button:hover{
+.hero-button:hover{
     width: 160px;
     display: flex;
     align-items: center;
@@ -240,14 +240,89 @@ button:hover{
 }
 
 .colu-1, .colu-2, .colu-3{      /*Combining all together*/
-flex-basis:33%; 
-position: relative;
-margin-left: 50px;
-background-color: #c52929;
-height: 10rem;
+    text-align: center;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #ededed;
+    border-radius: 7px;
+    height: 460px;
 }
 
 .services{
     font: bold 25px arial;        /*Services heading*/
     margin: 100px 0;
+}
+
+.producton{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.3s;
+}
+
+
+.footer {
+  padding: 10px 10px;
+  color: bisque;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.col2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.col1 a {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.socialicons {
+  margin-top: 20px;
+}
+
+.socialicons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
 }
