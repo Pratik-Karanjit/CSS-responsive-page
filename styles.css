@@ -11,7 +11,7 @@
     box-sizing: border-box;      /*ensures that the specified width includes padding and border.*/
     overflow: hidden;           /*hides any content that overflows the container, preventing it from affecting the layout of surrounding elements and eliminating the need for scrollbars.*/
 }
-
+/* nav */
 .navbar{
     width: 100%;
     display: flex;
